@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">F1Feeder</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_championship_standings">2014 Championship Standings</string>
+    <string name="driver_details">Driver Bio</string>
+
+</resources>

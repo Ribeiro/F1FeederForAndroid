@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.androidos.f1feeder"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main_logo_smaller"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.com.androidos.f1feeder.activities.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="br.com.androidos.f1feeder.activities.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.androidos.f1feeder.activities.ChampionshipStandings"
+            android:label="@string/title_activity_championship_standings" >
+        </activity>
+        <activity
+            android:name="br.com.androidos.f1feeder.activities.DriverDetails"
+            android:label="@string/driver_details" >
+        </activity>
+    </application>
+
+</manifest>
